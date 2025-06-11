@@ -1,0 +1,56 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Editor Files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary Files
+*.tmp
+*.bak
+*.log
+
+# Compiled Output
+*.pdf
+!docs/compiled/*.pdf
+
+# Sensitive Data
+*.env
+secrets/
+credentials/
+
+# Financial Models (if sensitive)
+# assets/data/financial_model_internal.xlsx
+
+# Node (if using for tooling)
+node_modules/
+package-lock.json
+
+# Python (if using for scripts)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# LaTeX auxiliary files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# Build directories
+build/
+dist/
+output/ 

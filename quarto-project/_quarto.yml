@@ -1,0 +1,70 @@
+project:
+  type: book
+  output-dir: _output
+
+book:
+  title: "Vitaal Klinic Business Plan"
+  subtitle: "Denmark's Premier Metabolic Health & Longevity Center"
+  author: 
+    - name: "Dr. Jesper Vang"
+      affiliation: "CEO & Technology Lead"
+    - name: "Dr. Peyman Pedrampour"
+      affiliation: "Medical Director"
+  date: "2025-01-06"
+  
+  chapters:
+    - index.qmd
+    - 00-executive-summary.qmd
+    - 01-market-analysis.qmd
+    - 02-clinical-services.qmd
+    - 03-technology-platform.qmd
+    - 04-financial-projections.qmd
+    - 05-implementation-roadmap.qmd
+    - 06-next-steps.qmd
+    - references.qmd
+
+  appendices:
+    - supporting-data.qmd
+
+bibliography: references.bib
+csl: harvard-cite-them-right.csl
+
+format:
+  html:
+    theme: 
+      - cosmo
+      - custom.scss
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    fig-cap-location: bottom
+    reference-location: margin
+    
+  pdf:
+    documentclass: report
+    papersize: a4
+    margin-left: 30mm
+    margin-right: 30mm
+    margin-top: 30mm
+    margin-bottom: 30mm
+    include-in-header:
+      - latex/preamble.tex
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    colorlinks: true
+    
+execute:
+  echo: false
+  warning: false
+  
+crossref:
+  fig-prefix: Figure
+  tbl-prefix: Table
+  eq-prefix: Equation
+  sec-prefix: Section
+  
+knitr:
+  opts_chunk:
+    dev: "ragg_png"
+    dpi: 300

@@ -1,0 +1,158 @@
+# Implementation Timeline
+# 18-month roadmap from foundation to full launch
+
+timeline: {
+  label: "Vitaal Klinic Implementation Timeline"
+  style: {
+    font-size: 24
+    bold: true
+  }
+  
+  q1_2025: {
+    label: "Q1 2025\nFoundation Phase"
+    style: {
+      fill: "#E3F2FD"
+      stroke: "#1976D2"
+      border-radius: 10
+    }
+    
+    tasks: {
+      label: |md
+        **Key Activities:**
+        • Legal entity setup
+        • STPS registration
+        • Core team recruitment
+        • Partnership agreements
+        • Initial funding secured
+      |
+      style: {
+        font-size: 14
+      }
+    }
+  }
+  
+  q2_2025: {
+    label: "Q2 2025\nBuild Phase"
+    style: {
+      fill: "#E8F5E9"
+      stroke: "#2E7D32"
+      border-radius: 10
+    }
+    
+    tasks: {
+      label: |md
+        **Key Activities:**
+        • Facility renovation
+        • HBOT installation
+        • Technology platform dev
+        • Staff training
+        • Clinical protocols
+      |
+      style: {
+        font-size: 14
+      }
+    }
+  }
+  
+  q3_2025: {
+    label: "Q3 2025\nPilot Phase"
+    style: {
+      fill: "#FFF3E0"
+      stroke: "#F57C00"
+      border-radius: 10
+    }
+    
+    tasks: {
+      label: |md
+        **Key Activities:**
+        • 100 founding members
+        • Service refinement
+        • Feedback integration
+        • Operations optimization
+        • Marketing prep
+      |
+      style: {
+        font-size: 14
+      }
+    }
+  }
+  
+  q4_2025: {
+    label: "Q4 2025\nFull Launch"
+    style: {
+      fill: "#F3E5F5"
+      stroke: "#7B1FA2"
+      border-radius: 10
+    }
+    
+    tasks: {
+      label: |md
+        **Key Activities:**
+        • Marketing campaign
+        • Scale to 400 members
+        • Full service offering
+        • 24/7 concierge launch
+        • International expansion prep
+      |
+      style: {
+        font-size: 14
+      }
+    }
+  }
+  
+  # Milestones
+  milestone1: {
+    label: "STPS Approval"
+    shape: diamond
+    style: {
+      fill: "#FF5252"
+      font-color: white
+    }
+  }
+  
+  milestone2: {
+    label: "HBOT Operational"
+    shape: diamond
+    style: {
+      fill: "#FF5252"
+      font-color: white
+    }
+  }
+  
+  milestone3: {
+    label: "100 Members"
+    shape: diamond
+    style: {
+      fill: "#FF5252"
+      font-color: white
+    }
+  }
+  
+  milestone4: {
+    label: "Break-even"
+    shape: diamond
+    style: {
+      fill: "#FF5252"
+      font-color: white
+    }
+  }
+  
+  # Connections
+  timeline -> q1_2025
+  timeline -> q2_2025
+  timeline -> q3_2025
+  timeline -> q4_2025
+  
+  q1_2025 -> tasks
+  q2_2025 -> tasks
+  q3_2025 -> tasks
+  q4_2025 -> tasks
+  
+  q1_2025 -> milestone1
+  q2_2025 -> milestone2
+  q3_2025 -> milestone3
+  q4_2025 -> milestone4
+}
+
+# Layout
+direction: right

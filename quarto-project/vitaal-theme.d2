@@ -1,0 +1,116 @@
+# Vitaal D2 Theme Configuration
+# This file defines the consistent styling for all D2 diagrams
+
+vars: {
+  # Brand Colors
+  primary: "#0B4F71"        # Trust Blue
+  secondary: "#4FB06D"      # Vitality Green
+  accent: "#F39C12"         # Energy Orange
+  dark: "#2C3E50"           # Dark Grey
+  light: "#ECF0F1"          # Light Grey
+  white: "#FFFFFF"
+  
+  # Font Configuration
+  font-family: "SF Pro Display, -apple-system, Arial"
+  font-size: 14
+  
+  # Shape Defaults
+  shape-radius: 8
+  shape-padding: 16
+  
+  # Connection Defaults
+  stroke-width: 2
+  arrow-size: 8
+}
+
+# Define reusable classes
+classes: {
+  primary-box: {
+    style.fill: ${primary}
+    style.stroke: ${primary}
+    style.font-color: ${white}
+    style.font-size: 16
+    style.bold: true
+    style.border-radius: ${shape-radius}
+  }
+  
+  secondary-box: {
+    style.fill: ${secondary}
+    style.stroke: ${secondary}
+    style.font-color: ${white}
+    style.font-size: 14
+    style.border-radius: ${shape-radius}
+  }
+  
+  accent-box: {
+    style.fill: ${accent}
+    style.stroke: ${accent}
+    style.font-color: ${white}
+    style.font-size: 14
+    style.bold: true
+    style.border-radius: ${shape-radius}
+  }
+  
+  light-box: {
+    style.fill: ${light}
+    style.stroke: ${dark}
+    style.font-color: ${dark}
+    style.font-size: 14
+    style.border-radius: ${shape-radius}
+  }
+  
+  decision: {
+    shape: diamond
+    style.fill: ${accent}
+    style.stroke: ${accent}
+    style.font-color: ${white}
+    style.font-size: 14
+    style.bold: true
+  }
+  
+  process: {
+    shape: rectangle
+    style.fill: ${primary}
+    style.stroke: ${primary}
+    style.font-color: ${white}
+    style.font-size: 14
+    style.border-radius: ${shape-radius}
+  }
+  
+  data: {
+    shape: cylinder
+    style.fill: ${secondary}
+    style.stroke: ${secondary}
+    style.font-color: ${white}
+    style.font-size: 14
+  }
+  
+  connection-primary: {
+    style.stroke: ${primary}
+    style.stroke-width: ${stroke-width}
+    style.filled: true
+  }
+  
+  connection-secondary: {
+    style.stroke: ${secondary}
+    style.stroke-width: ${stroke-width}
+    style.filled: true
+  }
+  
+  connection-dashed: {
+    style.stroke: ${dark}
+    style.stroke-width: ${stroke-width}
+    style.stroke-dash: 5
+  }
+}
+
+# Default styling for all elements
+style: {
+  fill: ${light}
+  stroke: ${dark}
+  font-color: ${dark}
+  font: ${font-family}
+  font-size: ${font-size}
+  border-radius: ${shape-radius}
+  text-transform: none
+}

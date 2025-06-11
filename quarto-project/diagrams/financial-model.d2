@@ -1,0 +1,160 @@
+# Financial Model Overview - Enhanced D2 Version
+# This demonstrates advanced D2 features over Mermaid
+
+direction: right
+
+title: Financial Model Architecture {
+  shape: text
+  style.font-size: 28
+  style.bold: true
+  style.font-color: "#0B4F71"
+  near: top-center
+}
+
+# Main container
+Financial Foundation: {
+  shape: hexagon
+  style: {
+    fill: "#0B4F71"
+    stroke: "#0B4F71"
+    font-color: white
+    font-size: 18
+    bold: true
+    shadow: true
+  }
+  
+  icon: https://icons.terrastruct.com/essentials%2F117-analytics.svg
+}
+
+# Revenue component
+Revenue Streams: {
+  shape: rectangle
+  style: {
+    fill: "#4FB06D"
+    stroke: "#4FB06D"
+    font-color: white
+    font-size: 16
+    border-radius: 12
+  }
+  
+  membership: "Membership Fees\n75% • €21.4M" {
+    shape: rectangle
+    style.fill: "#5FCA7D"
+    style.font-size: 14
+  }
+  
+  alacarte: "À la Carte\n15% • €4.3M" {
+    shape: rectangle
+    style.fill: "#6FD58D"
+    style.font-size: 14
+  }
+  
+  corporate: "Corporate\n10% • €2.9M" {
+    shape: rectangle
+    style.fill: "#7FE09D"
+    style.font-size: 14
+  }
+}
+
+# Cost component with nested structure
+Cost Structure: {
+  shape: rectangle
+  style: {
+    fill: "#F39C12"
+    stroke: "#F39C12"
+    font-color: white
+    font-size: 16
+    border-radius: 12
+  }
+  
+  grid-columns: 2
+  
+  staff: "Medical Staff\n35%" {
+    icon: https://icons.terrastruct.com/users%2F001-user.svg
+  }
+  
+  ops: "Operations\n25%" {
+    icon: https://icons.terrastruct.com/essentials%2F092-gear.svg
+  }
+  
+  tech: "Technology\n10%" {
+    icon: https://icons.terrastruct.com/tech%2F022-interface.svg
+  }
+  
+  marketing: "Marketing\n15%" {
+    icon: https://icons.terrastruct.com/business%2F183-bullhorn.svg
+  }
+  
+  admin: "Admin\n15%" {
+    icon: https://icons.terrastruct.com/business%2F004-briefcase.svg
+  }
+}
+
+# Profitability metrics
+Profitability: {
+  shape: rectangle
+  style: {
+    fill: "#E74C3C"
+    stroke: "#E74C3C"
+    font-color: white
+    font-size: 16
+    border-radius: 12
+  }
+  
+  gross: "Gross Margin\n78%" {
+    shape: circle
+    style.fill: "#EC7063"
+  }
+  
+  ebitda: "EBITDA Margin\n33%" {
+    shape: circle
+    style.fill: "#F1948A"
+  }
+  
+  net: "Net Margin\n23%" {
+    shape: circle
+    style.fill: "#FADBD8"
+    style.font-color: "#E74C3C"
+  }
+}
+
+# Connections with custom styling
+Financial Foundation -> Revenue Streams: {
+  style: {
+    stroke: "#0B4F71"
+    stroke-width: 3
+    filled: true
+    stroke-dash: 0
+  }
+}
+
+Financial Foundation -> Cost Structure: {
+  style: {
+    stroke: "#F39C12"
+    stroke-width: 3
+    filled: true
+    stroke-dash: 0
+  }
+}
+
+Financial Foundation -> Profitability: {
+  style: {
+    stroke: "#E74C3C"
+    stroke-width: 3
+    filled: true
+    stroke-dash: 0
+  }
+}
+
+# Annotations
+explanation: |md
+  ## Key Insights
+  - **Membership-driven**: 75% recurring revenue
+  - **High margins**: 78% gross margin achieved
+  - **Scalable model**: Margins improve with growth
+| {
+  near: bottom-center
+  shape: text
+  style.font-size: 12
+  style.font-color: "#2C3E50"
+}

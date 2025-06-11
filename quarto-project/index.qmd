@@ -1,0 +1,72 @@
+---
+title: "Vitaal Klinic"
+subtitle: "Denmark's Premier Metabolic Health & Longevity Center"
+author:
+  - name: Dr. Jesper Vang
+    email: jesper@vitaalklinic.dk
+    affiliations:
+      - name: CEO & Technology Lead
+        department: Vitaal Klinic
+  - name: Dr. Peyman Pedrampour
+    email: peyman@vitaalklinic.dk
+    affiliations:
+      - name: Medical Director
+        department: Vitaal Klinic
+date: today
+date-format: "MMMM YYYY"
+---
+
+# Preface {.unnumbered}
+
+This comprehensive business plan outlines the establishment of Vitaal Klinic, Denmark's first integrated metabolic health and longevity center. Located at Jagtvej 113 in Copenhagen, we are positioned to capture a significant share of the €1.2 billion Danish premium healthcare market.
+
+## Investment Highlights {.unnumbered}
+
+::: {.callout-important}
+**Investment Opportunity**: €1.5-2.0 million  
+**Target Market**: 25,000 HNW households in Denmark  
+**Projected Revenue**: €28.5M by Year 3  
+**Break-even**: Month 14-16  
+**IRR**: 89% over 3 years
+:::
+
+## Our Unique Value Proposition {.unnumbered}
+
+Vitaal Klinic integrates five evidence-based interventions:
+
+1. **GLP-1 Metabolic Optimization** - Beyond weight loss to cardiovascular and cognitive benefits
+2. **Hyperbaric Oxygen Therapy** - First private HBOT center in Denmark
+3. **Precision Genetic Testing** - Personalized treatment protocols
+4. **Advanced Biomarker Monitoring** - Cutting-edge diagnostics
+5. **IV Nutrient Therapies** - Cellular optimization
+
+## Strategic Advantages {.unnumbered}
+
+- **First-Mover Position**: No integrated longevity centers in Denmark
+- **Established Patient Base**: 3,500 patients from Dr. Pedrampour's GP practice
+- **Research Partnerships**: Novo Nordisk collaboration
+- **Digital Innovation**: Proprietary Vitaal Digital platform
+- **Evidence-Based Approach**: All protocols supported by peer-reviewed research
+
+## Document Structure {.unnumbered}
+
+This business plan is organized into six comprehensive sections:
+
+1. **Executive Summary** - Investment overview and key metrics
+2. **Market Analysis** - €1.2B opportunity in Danish healthcare
+3. **Clinical Services** - Evidence-based treatment protocols
+4. **Technology Platform** - Vitaal Digital ecosystem
+5. **Financial Projections** - Path to €28.5M revenue
+6. **Implementation Roadmap** - 18-month launch plan
+
+---
+
+*For investment inquiries, please contact:*
+
+Dr. Jesper Vang, CEO  
+jesper@vitaalklinic.dk  
++45 [Phone Number]
+
+Jagtvej 113, 1. sal  
+2200 Copenhagen N  
+Denmark

@@ -1,0 +1,367 @@
+# Next Steps: Immediate Action Plan
+
+## Executive Priority Actions for Q1 2025
+
+The next 90 days are critical for transforming Vitaal Klinic from concept to operational reality. This section provides a detailed action plan with clear ownership, dependencies, and success criteria for immediate execution.
+
+### 30-60-90 Day Sprint Plan
+
+::: {.callout-note}
+**Note**: The following diagram needs to be converted from Mermaid to D2 format:
+
+Original Mermaid diagram showing Launch Readiness with three phases:
+- 30 Days: Legal Foundation (Entity formation, Regulatory pathway, Insurance setup)
+- 60 Days: Partnerships & Team (Key partnerships signed, Core team hired, Technology started)
+- 90 Days: Operational Ready (Facility prepared, Protocols approved, Pilot members enrolled)
+:::
+
+## Week 1-2: Legal and Financial Foundation
+
+### Immediate Actions Required
+
+::: {.callout-note}
+**Note**: The following flowchart needs to be converted from Mermaid to D2 format:
+
+Original Mermaid flowchart showing Legal Setup timeline:
+- Day 1-3: Incorporate Vitaal Klinic ApS, Open Business Banking, Secure Initial Capital
+- Day 4-7: Draft Shareholder Agreement, IP Assignment Docs, Employment Contracts
+- Day 8-14: Insurance Applications, Accounting Setup, Legal Compliance Review
+:::
+
+**Priority Task List:**
+
+| Task | Owner | Deadline | Budget | Status |
+|------|-------|----------|---------|---------|
+| Company registration (CVR) | CEO | Day 3 | €1,500 | Pending |
+| Bank account (Danske Bank) | CFO | Day 5 | €0 | Pending |
+| Capital transfer | Investors | Day 7 | €500K | Committed |
+| Malpractice insurance | COO | Day 10 | €25K/yr | Quoted |
+| GDPR compliance plan | Legal | Day 14 | €5,000 | Started |
+
+: {tbl-colwidths="[30,15,15,20,20]"}
+
+::: {.callout-tip}
+## Key Contacts
+
+- **Legal Firm**: Kromann Reumert - Healthcare specialty
+- **Accounting**: PwC Denmark - Life sciences division
+- **Insurance**: Willis Towers Watson - Medical malpractice
+:::
+
+## Week 3-4: Regulatory Pathway
+
+### Critical Regulatory Meetings
+
+::: {.callout-note}
+**Note**: The following Gantt chart needs to be converted from Mermaid to D2 format:
+
+Original Mermaid Gantt chart showing:
+- Preparation: Document Preparation (5d), Legal Review (2d)
+- Applications: STPS Meeting Request (1d), Authorization Submit (1d), Medical Device Reg (2d)
+- Follow-up: Response Preparation (3d)
+:::
+
+**Regulatory Meeting Schedule:**
+
+::: {.panel-tabset}
+
+## Danish Patient Safety Authority (STPS)
+
+- **Contact**: Senior Advisor
+- **Date**: Week 3
+- **Agenda**: Private facility authorization
+- **Preparation**: Clinical protocols, quality manual
+- **Attendees**: Dr. Pedrampour, CEO, Legal Counsel
+
+## Danish Medicines Agency
+
+- **Contact**: Medical Device Division
+- **Date**: Week 4
+- **Agenda**: HBOT classification
+- **Documents**: CE certificates, safety data
+
+## Data Protection Agency
+
+- **Meeting**: Virtual possible
+- **Focus**: Health data handling
+- **Output**: GDPR compliance certification
+
+:::
+
+## Week 5-6: Strategic Partnerships
+
+### Partnership Execution Matrix
+
+::: {.callout-note}
+**Note**: The following diagram needs to be converted from Mermaid to D2 format:
+
+Original Mermaid diagram showing Partnership Priority:
+- Clinical Partners: Unilabs (Contract Ready → Sign Week 5), GenomeScan (In Negotiation → Technical Workshop)
+- Technology Partners: AWS Healthcare (Terms Agreed → Implementation Start)
+- Supply Partners: Novo Nordisk (Meeting Scheduled → Distribution Terms)
+:::
+
+**Partnership Action Items:**
+
+| Partner | Next Action | Owner | Date | Critical Path |
+|---------|------------|-------|------|---------------|
+| Unilabs | Contract signature | Medical Director | Week 5 | Yes |
+| GenomeScan | Technical integration plan | CTO | Week 5 | Yes |
+| Novo Nordisk | Distribution agreement | CEO | Week 6 | Yes |
+| B. Braun | HBOT purchase order | COO | Week 6 | Yes |
+| DrugBank | API access setup | CTO | Week 6 | No |
+
+: {tbl-colwidths="[20,30,20,15,15]"}
+
+## Week 7-8: Core Team Assembly
+
+### Hiring Sprint Plan
+
+::: {.callout-note}
+**Note**: The following flowchart needs to be converted from Mermaid to D2 format:
+
+Original Mermaid flowchart showing Hiring Priority:
+- Must-Have Week 8: Operations Manager, Lead Developer, Head Nurse, Medical Admin
+- Target Week 12: Additional Physician, Nurses 2-4, Health Coach, Marketing Lead
+:::
+
+::: {.panel-tabset}
+
+## Immediate Postings (Day 1)
+
+- LinkedIn Premium job posts
+- Læger.dk for physicians
+- Tech: TheHub.dk, Nordic IT jobs
+- Nursing: DSR job board
+
+## Interview Schedule (Week 7-8)
+
+- First round: Video screening
+- Second round: In-person + case study
+- Final round: Team fit + references
+- Offer: Same week as final
+
+## Compensation Packages
+
+- Competitive base + equity option
+- Benefits: Health, pension, flex time
+- Signing bonus for critical roles
+
+:::
+
+## Month 2: Infrastructure Development
+
+### Facility and Technology Sprint
+
+::: {.callout-note}
+**Note**: The following diagram needs to be converted from Mermaid to D2 format:
+
+Original Mermaid diagram showing Infrastructure:
+- Physical Space: Design Approval, Construction Start, Equipment Orders
+- Technology Platform: MVP Development, Security Audit, Integration Testing
+- Clinical Systems: HBOT Delivery, Lab Setup, EHR Selection
+:::
+
+**Critical Path Items:**
+
+| Category | Action | Deadline | Dependencies |
+|----------|--------|----------|--------------|
+| **Facility** | Building permit | Week 6 | Design complete |
+| **HBOT** | Purchase order | Week 8 | Financing secured |
+| **Technology** | AWS setup | Week 7 | Architecture approved |
+| **Clinical** | Protocol approval | Week 10 | Medical board review |
+
+: {tbl-colwidths="[20,30,20,30]"}
+
+## Month 3: Pre-Launch Excellence
+
+### Launch Readiness Checklist
+
+::: {.callout-note}
+**Note**: The following diagram needs to be converted from Mermaid to D2 format:
+
+Original Mermaid diagram showing Launch Readiness:
+- Clinical ✓: Protocols approved, Staff trained, Equipment validated
+- Operational ✓: Workflows defined, Scheduling active, Billing ready
+- Technology ✓: Platform tested, Integrations live, Security verified
+- Marketing ✓: Website live, Campaigns ready, PR scheduled
+:::
+
+### Pilot Member Recruitment
+
+**Target: 25 Founding Members by Day 90**
+
+::: {.panel-tabset}
+
+## Source Strategy
+
+- Dr. Pedrampour's patients: 15 members
+- Medical referrals: 5 members
+- Early interest list: 5 members
+
+## Incentive Package
+
+- 20% lifetime discount
+- Exclusive founding member events
+- Priority access to new services
+- Direct input on development
+
+## Onboarding Excellence
+
+- Personal welcome call from CEO
+- Comprehensive health assessment
+- Customized treatment plan
+- Dedicated care coordinator
+
+:::
+
+## Critical Success Metrics
+
+### 90-Day KPIs
+
+::: {.callout-note}
+**Note**: The following diagram needs to be converted from Mermaid to D2 format:
+
+Original Mermaid diagram showing Success Metrics:
+- Legal/Regulatory: 100% Compliance
+- Partnerships: 5 Key Partners
+- Team: 8 Core Hires
+- Operations: 25 Pilot Members
+:::
+
+| Category | Metric | Target | Current | Action Required |
+|----------|---------|---------|---------|-----------------|
+| **Legal** | Entity formation | Complete | 0% | Immediate |
+| **Regulatory** | Applications filed | 100% | 0% | Week 3-4 |
+| **Partnerships** | Contracts signed | 5 | 0 | Week 5-6 |
+| **Team** | Core positions | 8 | 2 | Week 7-8 |
+| **Technology** | MVP complete | 80% | 10% | Month 2-3 |
+| **Members** | Pilot enrollment | 25 | 0 | Month 3 |
+
+: {tbl-colwidths="[20,25,15,15,25]"}
+
+## Investment and Financial Actions
+
+### Immediate Capital Requirements
+
+::: {.callout-note}
+**Note**: The following pie chart needs to be converted from Mermaid to D2 format:
+
+Original Mermaid pie chart showing Q1 2025 Capital Deployment (€500K):
+- Legal & Regulatory: €50,000
+- Team Recruitment: €100,000
+- Technology Development: €150,000
+- Marketing & PR: €50,000
+- Equipment Deposits: €100,000
+- Working Capital: €50,000
+:::
+
+::: {.callout-important}
+## Funding Timeline
+
+- Week 1: €500K initial capital
+- Month 2: €1M equipment financing
+- Month 3: €500K additional working capital
+- **Total Q1**: €2M deployment
+:::
+
+## Board and Stakeholder Communication
+
+### Communication Cadence
+
+::: {.callout-note}
+**Note**: The following diagram needs to be converted from Mermaid to D2 format:
+
+Original Mermaid diagram showing Communication Plan:
+- Weekly: Team Standup, Progress Email
+- Bi-weekly: Board Update, Investor Call
+- Monthly: Full Report, Public Update
+:::
+
+::: {.callout-tip}
+## Reporting Structure
+
+1. **Weekly**: Progress dashboard to all stakeholders
+2. **Bi-weekly**: Board conference call
+3. **Monthly**: Comprehensive written report
+4. **Quarterly**: In-person board meeting
+:::
+
+## Risk Mitigation Priorities
+
+### Top 5 Risks to Address
+
+| Risk | Impact | Mitigation Action | Owner | Deadline |
+|------|--------|-------------------|-------|----------|
+| Regulatory delay | High | Expert consultant engaged | Medical Director | Week 2 |
+| Key hire failure | High | Multiple candidates, search firm | CEO | Week 4 |
+| Capital shortfall | Medium | Contingency funding lined up | CFO | Week 3 |
+| Technology delay | Medium | Phased approach, vendor backup | CTO | Week 6 |
+| Partner issues | Medium | Multiple suppliers identified | COO | Week 5 |
+
+: {tbl-colwidths="[20,15,30,20,15]"}
+
+## Call to Action
+
+### Executive Team Actions This Week
+
+::: {.panel-tabset}
+
+## CEO (Jesper Vang)
+
+- [ ] Finalize entity formation documents
+- [ ] Schedule STPS introduction meeting
+- [ ] Approve organizational structure
+- [ ] Lead investor update call
+
+## Medical Director (Dr. Pedrampour)
+
+- [ ] Complete clinical protocol drafts
+- [ ] Identify physician candidates
+- [ ] Plan medical advisory board
+- [ ] Review quality framework
+
+## Operations Lead
+
+- [ ] Secure insurance quotes
+- [ ] Initiate facility planning
+- [ ] Map operational workflows
+- [ ] Establish vendor contacts
+
+## Technology Lead
+
+- [ ] Finalize platform architecture
+- [ ] Begin developer recruitment
+- [ ] Set up AWS environment
+- [ ] Plan integration timeline
+
+:::
+
+## Success Celebration Milestones
+
+Celebrating achievements maintains team momentum:
+
+- **Day 7**: Legal entity established
+- **Day 30**: Regulatory pathway clear
+- **Day 45**: Core team hired
+- **Day 60**: Partnerships secured
+- **Day 75**: Technology MVP ready
+- **Day 90**: First pilot member enrolled
+
+## Final Message
+
+The opportunity to establish Denmark's premier longevity center is within reach. With Dr. Pedrampour's established practice, Dr. Vang's technical expertise, and a clear market need, Vitaal Klinic is positioned for exceptional success.
+
+**The next 90 days will determine our trajectory. Let's execute with precision, adapt with agility, and build something extraordinary for Danish healthcare.**
+
+### Contact for Immediate Support
+
+::: {.callout-important}
+## Executive Team
+
+- **CEO**: Dr. Jesper Vang | jesper@vitaalklinic.dk
+- **Medical Director**: Dr. Peyman Pedrampour | peyman@vitaalklinic.dk
+- **Location**: Jagtvej 113, 1. sal, 2200 Copenhagen N
+:::
+
+**Time to transform vision into reality. Let's begin.**

@@ -1,0 +1,63 @@
+% Vitaal Brand Colors
+\usepackage{xcolor}
+\definecolor{vitaalblue}{HTML}{0B4F71}
+\definecolor{vitaalgreen}{HTML}{4FB06D}
+\definecolor{vitaalorange}{HTML}{F39C12}
+\definecolor{vitaaldark}{HTML}{2C3E50}
+\definecolor{vitaallight}{HTML}{ECF0F1}
+
+% Hyperref colors - using AtBeginDocument to ensure hyperref is loaded
+\usepackage{hyperref}
+\AtBeginDocument{%
+\hypersetup{
+    colorlinks=true,
+    linkcolor=vitaalblue,
+    citecolor=vitaalblue,
+    urlcolor=vitaalblue
+}%
+}
+
+% Chapter and section formatting
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries\color{vitaalblue}}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titleformat{\section}
+{\normalfont\Large\bfseries\color{vitaalblue}}{\thesection}{1em}{}
+\titleformat{\subsection}
+{\normalfont\large\bfseries\color{vitaaldark}}{\thesubsection}{1em}{}
+
+% Headers and footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\color{vitaalblue}\leftmark}
+\fancyhead[R]{\color{vitaalblue}Vitaal Klinic}
+\fancyfoot[C]{\color{vitaaldark}\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Table styling
+\usepackage{booktabs}
+\usepackage{colortbl}
+\arrayrulecolor{vitaalblue}
+
+% Caption formatting
+\usepackage{caption}
+\DeclareCaptionFont{vitaal}{\color{vitaaldark}}
+\captionsetup{font=vitaal,labelfont=bf}
+
+% Professional spacing
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\renewcommand{\baselinestretch}{1.15}
+
+% Page layout
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    top=30mm,
+    bottom=30mm,
+    left=30mm,
+    right=30mm,
+    headheight=15pt
+}

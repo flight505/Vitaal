@@ -1,0 +1,142 @@
+# Vitaal Klinic Value Proposition
+
+direction: down
+
+# Title
+title: "Vitaal Klinic Value Proposition" {
+  shape: text
+  style.font-size: 28
+  style.bold: true
+  style.font-color: "#0B4F71"
+  near: top-center
+}
+
+# Main node
+vitaal: "Vitaal Klinic" {
+  shape: hexagon
+  style: {
+    fill: "#0B4F71"
+    stroke: "#0B4F71"
+    stroke-width: 3
+    font-color: "white"
+    font-size: 20
+    bold: true
+    shadow: true
+  }
+}
+
+# Three pillars
+clinical: "Clinical Excellence" {
+  shape: rectangle
+  style: {
+    fill: "#4FB06D"
+    stroke: "#4FB06D"
+    font-color: "white"
+    font-size: 16
+    bold: true
+    border-radius: 12
+  }
+  
+  protocol: "Evidence-Based Protocols" {
+    shape: rectangle
+    style.fill: "#5FCA7D"
+    style.font-size: 14
+  }
+  
+  base: "3,500 Patient GP Base" {
+    shape: rectangle
+    style.fill: "#6FD58D"
+    style.font-size: 14
+  }
+  
+  partner: "Novo Nordisk Partnership" {
+    shape: rectangle
+    style.fill: "#7FE09D"
+    style.font-size: 14
+  }
+}
+
+market: "Market Opportunity" {
+  shape: rectangle
+  style: {
+    fill: "#4FB06D"
+    stroke: "#4FB06D"
+    font-color: "white"
+    font-size: 16
+    bold: true
+    border-radius: 12
+  }
+  
+  size: "€1.2B Premium Market" {
+    shape: rectangle
+    style.fill: "#5FCA7D"
+    style.font-size: 14
+  }
+  
+  target: "25,000 HNW Households" {
+    shape: rectangle
+    style.fill: "#6FD58D"
+    style.font-size: 14
+  }
+  
+  competition: "No Direct Competition" {
+    shape: rectangle
+    style.fill: "#7FE09D"
+    style.font-size: 14
+  }
+}
+
+strategic: "Strategic Advantages" {
+  shape: rectangle
+  style: {
+    fill: "#4FB06D"
+    stroke: "#4FB06D"
+    font-color: "white"
+    font-size: 16
+    bold: true
+    border-radius: 12
+  }
+  
+  hbot: "First HBOT in Denmark" {
+    shape: rectangle
+    style.fill: "#5FCA7D"
+    style.font-size: 14
+  }
+  
+  digital: "Integrated Digital Platform" {
+    shape: rectangle
+    style.fill: "#6FD58D"
+    style.font-size: 14
+  }
+  
+  research: "Research Leadership" {
+    shape: rectangle
+    style.fill: "#7FE09D"
+    style.font-size: 14
+  }
+}
+
+# Connections
+vitaal -> clinical: {
+  style: {
+    stroke: "#4FB06D"
+    stroke-width: 3
+    filled: true
+  }
+}
+
+vitaal -> market: {
+  style: {
+    stroke: "#4FB06D"
+    stroke-width: 3
+    filled: true
+  }
+}
+
+vitaal -> strategic: {
+  style: {
+    stroke: "#4FB06D"
+    stroke-width: 3
+    filled: true
+  }
+}

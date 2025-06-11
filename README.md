@@ -18,14 +18,22 @@ This repository contains the comprehensive business plan for Vitaal Klinic, an i
 
 **Business Plan Complete** - All sections created with 50+ diagrams and comprehensive financial projections.
 
-**Latest Update (v1.0.1)** - Enhanced script quality with full shellcheck compliance and improved error handling.
+**Professional Document System** - Quarto-based compilation with D2 diagrams and Vega-Lite charts for publication-ready output.
+
+**Latest Update (v2.0.0)** - Migration to professional document system with consistent branding and enhanced visualizations.
 
 ## Repository Structure
 
 ```
 .
+├── quarto-project/        # Professional document compilation (NEW)
+│   ├── _quarto.yml       # Quarto configuration
+│   ├── *.qmd             # Chapter files
+│   ├── diagrams/         # D2 diagram sources
+│   ├── charts/           # Vega-Lite specifications
+│   └── _output/          # Generated PDF/HTML
 ├── docs/
-│   ├── sections/          # Individual business plan chapters
+│   ├── sections/          # Original business plan chapters
 │   │   ├── 00_vitaal_executive_summary.md
 │   │   ├── 01_vitaal_market_analysis.md
 │   │   ├── 02_vitaal_clinical_services.md
@@ -44,11 +52,31 @@ This repository contains the comprehensive business plan for Vitaal Klinic, an i
 
 ## Quick Start
 
+### Building Professional Documents (NEW)
+
+1. Navigate to the Quarto project:
+   ```bash
+   cd quarto-project
+   ```
+
+2. Build all formats:
+   ```bash
+   ./build.sh
+   ```
+
+3. View outputs in `_output/` directory:
+   - `Vitaal-Business-Plan.pdf` - Professional PDF
+   - `index.html` - Interactive HTML version
+
+### Original Markdown Files
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/flight505/Vitaal.git
    cd Vitaal
    ```
+
+2. View original business plan sections in `docs/sections/`
 
 ## Key Highlights
 
@@ -58,19 +86,25 @@ This repository contains the comprehensive business plan for Vitaal Klinic, an i
 - **Break-even**: Month 14-16
 - **First-Mover Advantage**: No HBOT longevity centers in Denmark
 
-## Mermaid Diagrams
+## Diagrams and Visualizations
 
-The business plan includes 50+ professional diagrams covering:
+The business plan includes 50+ professional diagrams and charts:
+
+### Original Format (Mermaid)
 - Market analysis and segmentation
 - Clinical protocols and workflows
 - Technology architecture
 - Financial projections
 - Implementation timelines
 
-To view diagrams:
-- Use VS Code with Mermaid extension
-- Push to GitHub (automatic rendering)
-- Visit mermaid.live for online viewing
+### Enhanced Format (D2 + Vega-Lite)
+- **D2 Diagrams**: Superior layouts with consistent branding
+- **Vega-Lite Charts**: Interactive, data-driven visualizations
+- **Professional Styling**: Vitaal brand colors and typography
+
+To view enhanced diagrams:
+- Open HTML output in `quarto-project/_output/`
+- Or generate from source in `quarto-project/diagrams/`
 
 ## Working with Sections
 

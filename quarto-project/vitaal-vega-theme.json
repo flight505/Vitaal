@@ -1,0 +1,93 @@
+{
+  "config": {
+    "title": {
+      "font": "SF Pro Display, -apple-system, Arial",
+      "fontSize": 18,
+      "fontWeight": 600,
+      "color": "#0B4F71"
+    },
+    "axis": {
+      "labelFont": "SF Pro Text, -apple-system, Arial",
+      "labelFontSize": 12,
+      "labelColor": "#2C3E50",
+      "titleFont": "SF Pro Display, -apple-system, Arial",
+      "titleFontSize": 14,
+      "titleFontWeight": 600,
+      "titleColor": "#0B4F71",
+      "gridColor": "#ECF0F1",
+      "domainColor": "#2C3E50",
+      "tickColor": "#2C3E50"
+    },
+    "legend": {
+      "labelFont": "SF Pro Text, -apple-system, Arial",
+      "labelFontSize": 12,
+      "labelColor": "#2C3E50",
+      "titleFont": "SF Pro Display, -apple-system, Arial",
+      "titleFontSize": 14,
+      "titleFontWeight": 600,
+      "titleColor": "#0B4F71"
+    },
+    "range": {
+      "category": [
+        "#0B4F71",
+        "#4FB06D", 
+        "#F39C12",
+        "#E74C3C",
+        "#9B59B6",
+        "#3498DB",
+        "#1ABC9C",
+        "#34495E"
+      ],
+      "diverging": [
+        "#E74C3C",
+        "#EC7063",
+        "#F1948A",
+        "#FADBD8",
+        "#FFFFFF",
+        "#D5F4E6",
+        "#82E0AA",
+        "#58D68D",
+        "#4FB06D"
+      ],
+      "heatmap": [
+        "#0B4F71",
+        "#1E5F8A",
+        "#3170A3",
+        "#4481BC",
+        "#82B1D4",
+        "#C1E1EC",
+        "#F1F8FB"
+      ]
+    },
+    "mark": {
+      "color": "#0B4F71",
+      "strokeWidth": 2
+    },
+    "area": {
+      "opacity": 0.7
+    },
+    "bar": {
+      "binSpacing": 2,
+      "cornerRadius": 4
+    },
+    "line": {
+      "strokeWidth": 3,
+      "strokeJoin": "round"
+    },
+    "point": {
+      "size": 100,
+      "filled": true
+    },
+    "text": {
+      "font": "SF Pro Text, -apple-system, Arial",
+      "fontSize": 12,
+      "color": "#2C3E50"
+    },
+    "view": {
+      "stroke": "transparent",
+      "continuousWidth": 600,
+      "continuousHeight": 400
+    },
+    "background": "#FFFFFF"
+  }
+}

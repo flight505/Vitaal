@@ -1,0 +1,124 @@
+/*-- scss:defaults --*/
+
+// Vitaal Brand Colors
+$primary: #0B4F71;        // Trust Blue
+$secondary: #4FB06D;      // Vitality Green  
+$accent: #F39C12;         // Energy Orange
+$dark: #2C3E50;           // Dark Grey
+$light: #ECF0F1;          // Light Grey
+$white: #FFFFFF;
+$black: #1A1A1A;
+
+// Extended Palette for Charts/Diagrams
+$chart-colors: (
+  $primary,
+  $secondary,
+  $accent,
+  #E74C3C,  // Warm Red
+  #9B59B6,  // Purple
+  #3498DB,  // Sky Blue
+  #1ABC9C,  // Turquoise
+  #34495E   // Steel Grey
+);
+
+// Typography
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family-monospace: "SF Mono", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 600;
+
+// Document styling
+$body-color: $black;
+$link-color: $primary;
+$link-hover-color: darken($primary, 10%);
+
+/*-- scss:rules --*/
+
+// Custom heading styles
+h1, h2, h3, h4, h5, h6 {
+  color: $primary;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  border-bottom: 3px solid $secondary;
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: darken($primary, 5%);
+}
+
+// Tables
+table {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  
+  thead {
+    background-color: $primary;
+    color: $white;
+    
+    th {
+      padding: 0.75rem;
+      font-weight: 600;
+    }
+  }
+  
+  tbody {
+    tr:nth-child(even) {
+      background-color: lighten($light, 5%);
+    }
+    
+    td {
+      padding: 0.5rem 0.75rem;
+    }
+  }
+}
+
+// Callout boxes
+.callout {
+  border-left: 4px solid $secondary;
+  background-color: lighten($secondary, 45%);
+  padding: 1rem;
+  margin: 1.5rem 0;
+  
+  &.callout-important {
+    border-left-color: $accent;
+    background-color: lighten($accent, 45%);
+  }
+  
+  &.callout-note {
+    border-left-color: $primary;
+    background-color: lighten($primary, 50%);
+  }
+}
+
+// Figure captions
+.figure-caption {
+  color: darken($light, 20%);
+  font-size: 0.9rem;
+  font-style: italic;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+// Code blocks
+pre {
+  background-color: lighten($light, 5%);
+  border: 1px solid darken($light, 10%);
+  border-radius: 4px;
+}
+
+// Print styles
+@media print {
+  h1 {
+    page-break-before: always;
+  }
+  
+  table, figure {
+    page-break-inside: avoid;
+  }
+}
